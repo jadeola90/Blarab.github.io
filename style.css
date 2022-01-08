@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Satisfy&display=swap');
+
+html, body{
+    margin: 0;
+    background: linear-gradient();
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+:root{
+    --primary-gradient: linear-gradient(to bottom)
+    label-gradient: linear-gradient(to bottom)
+}
+
+.container{
+    background: black;
+    background: url("../landing page/oasis.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:;
+    height: 100vh;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+    margin-top: 4rem;
+    margin: auto;
+}
+
+.nav-items{
+    text-align: right;
+} 
+
+/*Navigation*/
+
+.navbar{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    font-family: monospace;
+    
+}
+
+.navbar .nav-items{
+     text-align: right;
+}
+
+.nav-items .navbar-nav{
+    list-style-type: none;
+}
+.navbar-nav .nav-link{
+    display: inline-block;
+    font-size: 1rem;
+    
+}
+.navbar-nav{
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: rgba(121, 50, 91, 0.589);
+    font-size: 40px;
+}
+.navbar-nav .sign-in{
+    border-radius: 1rem;
+    margin-right: 2rem;
+    padding: .5rem 1rem;
+    background: rgb(19, 180, 230);
+    font-family: monospace;
+}
+h1{
+    color: rgb(128, 82, 27);
+    font-family: satisfy;
+    text-align: center;
+}
+a{
+    font-size: 050x;
+    text-align: left;
+    color: rgba(255, 228, 196, 0.918);
+    
+}
